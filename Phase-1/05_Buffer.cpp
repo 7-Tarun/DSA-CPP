@@ -26,3 +26,4 @@ int main()
 
 // cin >> automatically leading whitespace (spaces, tabs, newlines) skip karta hai.
 // isliye usse cin.ignore() ki jarurat nahi.
+// Safer shortcut: getline(cin >> ws, fullName);    don't have to use ignore. (ws) whitespace manipulator: ye pending newline aur other leading whitespace skip karta hai.
